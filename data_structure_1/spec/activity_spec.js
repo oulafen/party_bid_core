@@ -12,9 +12,9 @@ describe("Activity", function () {
     it("should first activity was created on creating", function () {
         var activity_name = "first activity";
 
-        var activity = new Activity(activity_name);
-        activity.create();
-        activity.active();
+        var activity = new Activity(activity_name,[],[]);
+        Activity.save_activity_to_activities(activity);
+        Activity.save_activity_name_to_current_activity(activity_name);
 
 
         var activity_json = JSON.parse(localStorage.activities);
