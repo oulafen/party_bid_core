@@ -30,5 +30,8 @@ Activity.save_new_activity_id = function (new_id) {
     activity_ids.push(new_id.toString()) ;
     localStorage.setItem('activity_ids',JSON.stringify(activity_ids));
 }
+Activity.get_activities=function(){
+    return JSON.parse(localStorage.activities);
+}
 
 
