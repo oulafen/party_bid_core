@@ -69,7 +69,7 @@ Bidding.get_winner = function (activity_name, bid_name) {
         var bidding = _.filter(biddings_in_order, function (bidding) {
             return  bidding.price == bid.price;
         });
-        biddings_in_kinds.push(bidding)
+        biddings_in_kinds.push(bidding);
     });
     return _.find(biddings_in_kinds, function (bidding) {
         return bidding.length == 1;

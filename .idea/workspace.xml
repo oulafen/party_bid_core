@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="002d1f72-4b0d-4a5d-b752-e68d10ceb97d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_structure_1/src/Bid.js" afterPath="$PROJECT_DIR$/data_structure_1/src/Bid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_structure_1/src/Activity.js" afterPath="$PROJECT_DIR$/data_structure_1/src/Activity.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_structure_1/src/Bidding.js" afterPath="$PROJECT_DIR$/data_structure_1/src/Bidding.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_structure_1/src/sms.js" afterPath="$PROJECT_DIR$/data_structure_1/src/sms.js" />
     </list>
     <ignored path="party_bid_core.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,12 +41,26 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="SMSSignUp.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_structure_1/src/SMSSignUp.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="55" selection-start="893" selection-end="893" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380">
+              <folding>
+                <element signature="e#893#1040#0" expanded="true" />
+                <element signature="e#1095#1324#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="sms.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_structure_1/src/sms.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="29" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="798">
+            <state line="23" column="0" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817">
               <folding>
+                <element signature="e#483#619#0" expanded="true" />
                 <element signature="e#652#750#0" expanded="true" />
+                <element signature="e#782#868#0" expanded="true" />
                 <element signature="n#!!block;n#check_message#0" expanded="true" />
                 <element signature="n#!!block;n#notify_sms_received#0" expanded="true" />
               </folding>
@@ -55,7 +71,7 @@
       <file leaf-file-name="bids_and_bidding_render_spec.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data_structure_1/spec/bids_and_bidding_render_spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="28" selection-start="2462" selection-end="2482" vertical-scroll-proportion="0.37460816" vertical-offset="1281" max-vertical-offset="1976">
+            <state line="79" column="0" selection-start="2453" selection-end="2453" vertical-scroll-proportion="1.2908497" vertical-offset="711" max-vertical-offset="1976">
               <folding>
                 <element signature="e#79#2384#0" expanded="true" />
                 <element signature="e#2414#2451#0" expanded="true" />
@@ -69,13 +85,95 @@
       <file leaf-file-name="Bid.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_structure_1/src/Bid.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="31" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="627">
+            <state line="27" column="27" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="627">
               <folding>
                 <element signature="n#!!block;n#Bid#0" expanded="true" />
+                <element signature="e#171#569#0" expanded="true" />
                 <element signature="e#412#507#0" expanded="true" />
                 <element signature="e#601#675#0" expanded="true" />
                 <element signature="e#716#819#0" expanded="true" />
                 <element signature="n#!!block;n#transform_bids_to_view_model#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Activity.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_structure_1/src/Activity.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="38" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="532">
+              <folding>
+                <element signature="e#198#304#0" expanded="true" />
+                <element signature="e#583#810#0" expanded="true" />
+                <element signature="e#761#806#0" expanded="true" />
+                <element signature="e#877#1056#0" expanded="true" />
+                <element signature="e#998#1052#0" expanded="true" />
+                <element signature="e#1095#1146#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bidding.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_structure_1/src/Bidding.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="13" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1691">
+              <folding>
+                <element signature="e#207#516#0" expanded="true" />
+                <element signature="e#652#700#0" expanded="true" />
+                <element signature="e#771#1255#0" expanded="true" />
+                <element signature="e#914#1026#0" expanded="true" />
+                <element signature="e#1069#1193#0" expanded="true" />
+                <element signature="e#1304#1610#0" expanded="true" />
+                <element signature="e#1660#1827#0" expanded="true" />
+                <element signature="e#1760#1814#0" expanded="true" />
+                <element signature="e#1871#2065#0" expanded="true" />
+                <element signature="e#1976#2036#0" expanded="true" />
+                <element signature="e#2116#2300#0" expanded="true" />
+                <element signature="e#2242#2296#0" expanded="true" />
+                <element signature="e#2357#2805#0" expanded="true" />
+                <element signature="e#2520#2699#0" expanded="true" />
+                <element signature="e#2591#2650#0" expanded="true" />
+                <element signature="e#2758#2801#0" expanded="true" />
+                <element signature="e#2873#3139#0" expanded="true" />
+                <element signature="e#2999#3043#0" expanded="true" />
+                <element signature="e#3098#3135#0" expanded="true" />
+                <element signature="n#!!block;n#transform_biddings_to_view_model#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sign_up_render_spec.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_structure_1/spec/sign_up_render_spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="71" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
+              <folding>
+                <element signature="e#1063#1329#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sign_up_spec.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_structure_1/spec/sign_up_spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="0" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="760">
+              <folding>
+                <element signature="e#841#1172#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SignUp.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_structure_1/src/SignUp.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="29" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
+              <folding>
+                <element signature="n#!!block;n#SignUp#0" expanded="true" />
+                <element signature="e#186#382#0" expanded="true" />
+                <element signature="e#294#348#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,13 +220,13 @@
         <option value="$PROJECT_DIR$/data_structure_1/SpecRunner.html" />
         <option value="$PROJECT_DIR$/data_structure_1/spec/activity_spec.js" />
         <option value="$PROJECT_DIR$/data_structure_1/src/SMSSignUp.js" />
-        <option value="$PROJECT_DIR$/data_structure_1/src/sms.js" />
-        <option value="$PROJECT_DIR$/data_structure_1/src/Activity.js" />
         <option value="$PROJECT_DIR$/data_structure_1/spec/bids_and_bidding_render_spec.js" />
         <option value="$PROJECT_DIR$/data_structure_1/spec/sign_up_spec.js" />
         <option value="$PROJECT_DIR$/data_structure_1/spec/bidding_spec.js" />
-        <option value="$PROJECT_DIR$/data_structure_1/src/Bidding.js" />
         <option value="$PROJECT_DIR$/data_structure_1/src/Bid.js" />
+        <option value="$PROJECT_DIR$/data_structure_1/src/sms.js" />
+        <option value="$PROJECT_DIR$/data_structure_1/src/Bidding.js" />
+        <option value="$PROJECT_DIR$/data_structure_1/src/Activity.js" />
       </list>
     </option>
   </component>
@@ -472,7 +570,7 @@
             <element signature="e#316#441#0" expanded="false" />
             <element signature="e#500#837#0" expanded="false" />
             <element signature="e#661#775#0" expanded="false" />
-            <element signature="e#893#1040#0" expanded="false" />
+            <element signature="e#893#1040#0" expanded="true" />
             <element signature="e#974#1027#0" expanded="false" />
           </folding>
         </state>
@@ -489,7 +587,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="20" selection-start="1547" selection-end="1547" vertical-scroll-proportion="0.0" vertical-offset="931" max-vertical-offset="1254">
           <folding>
+            <element signature="e#483#619#0" expanded="true" />
             <element signature="e#652#750#0" expanded="true" />
+            <element signature="e#782#868#0" expanded="true" />
             <element signature="n#!!block;n#check_message#0" expanded="true" />
             <element signature="n#!!block;n#notify_sms_received#0" expanded="true" />
           </folding>
@@ -519,7 +619,7 @@
           <folding>
             <element signature="e#62#232#0" expanded="false" />
             <element signature="e#262#299#0" expanded="false" />
-            <element signature="e#407#740#0" expanded="false" />
+            <element signature="e#407#740#0" expanded="true" />
             <element signature="e#1278#2019#0" expanded="false" />
           </folding>
         </state>
@@ -529,7 +629,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="37" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.0" vertical-offset="456" max-vertical-offset="456">
           <folding>
-            <element signature="e#1063#1329#0" expanded="false" />
+            <element signature="e#1063#1329#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -549,7 +649,7 @@
             <element signature="e#316#441#0" expanded="false" />
             <element signature="e#500#837#0" expanded="false" />
             <element signature="e#661#775#0" expanded="false" />
-            <element signature="e#893#1040#0" expanded="false" />
+            <element signature="e#893#1040#0" expanded="true" />
             <element signature="e#974#1027#0" expanded="false" />
           </folding>
         </state>
@@ -566,7 +666,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="20" selection-start="1547" selection-end="1547" vertical-scroll-proportion="0.0" vertical-offset="931" max-vertical-offset="1254">
           <folding>
+            <element signature="e#483#619#0" expanded="true" />
             <element signature="e#652#750#0" expanded="true" />
+            <element signature="e#782#868#0" expanded="true" />
             <element signature="n#!!block;n#check_message#0" expanded="true" />
             <element signature="n#!!block;n#notify_sms_received#0" expanded="true" />
           </folding>
@@ -586,7 +688,7 @@
           <folding>
             <element signature="e#62#232#0" expanded="false" />
             <element signature="e#262#299#0" expanded="false" />
-            <element signature="e#407#740#0" expanded="false" />
+            <element signature="e#407#740#0" expanded="true" />
             <element signature="e#1278#2019#0" expanded="false" />
           </folding>
         </state>
@@ -661,28 +763,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure_1/src/SignUp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="25" selection-start="376" selection-end="376" vertical-scroll-proportion="0.18627451" vertical-offset="0" max-vertical-offset="612" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fixture/fixtures.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="13" selection-start="71" selection-end="71" vertical-scroll-proportion="0.062091503" vertical-offset="0" max-vertical-offset="612" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure_1/src/SMSSignUp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="51" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.8071895" vertical-offset="0" max-vertical-offset="684">
-          <folding>
-            <element signature="e#176#255#0" expanded="false" />
-            <element signature="e#316#441#0" expanded="false" />
-            <element signature="e#500#837#0" expanded="false" />
-            <element signature="e#661#775#0" expanded="false" />
-            <element signature="e#893#1040#0" expanded="false" />
-            <element signature="e#974#1027#0" expanded="false" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data_structure_1/SpecRunner.html">
@@ -701,50 +784,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure_1/src/Activity.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="7" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.47648904" vertical-offset="0" max-vertical-offset="638">
-          <folding>
-            <element signature="e#198#304#0" expanded="true" />
-            <element signature="e#583#810#0" expanded="true" />
-            <element signature="e#994#1048#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure_1/spec/sign_up_spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="518" selection-end="518" vertical-scroll-proportion="0.40359476" vertical-offset="0" max-vertical-offset="760">
-          <folding>
-            <element signature="e#841#1172#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure_1/spec/sign_up_render_spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="37" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.24836601" vertical-offset="0" max-vertical-offset="612">
-          <folding>
-            <element signature="e#1063#1329#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data_structure_1/spec/bid_spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="24" selection-start="614" selection-end="614" vertical-scroll-proportion="0.23824452" vertical-offset="0" max-vertical-offset="638">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure_1/src/sms.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="29" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="798">
-          <folding>
-            <element signature="e#652#750#0" expanded="true" />
-            <element signature="n#!!block;n#check_message#0" expanded="true" />
-            <element signature="n#!!block;n#notify_sms_received#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -757,33 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure_1/src/Bidding.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="50" selection-start="1712" selection-end="1712" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1691">
-          <folding>
-            <element signature="e#207#516#0" expanded="false" />
-            <element signature="e#568#710#0" expanded="false" />
-            <element signature="e#652#700#0" expanded="false" />
-            <element signature="e#568#710#0" expanded="false" />
-            <element signature="e#914#1026#0" expanded="false" />
-            <element signature="e#1069#1193#0" expanded="false" />
-            <element signature="e#1760#1814#0" expanded="false" />
-            <element signature="e#1871#2065#0" expanded="false" />
-            <element signature="e#1976#2036#0" expanded="false" />
-            <element signature="e#2116#2300#0" expanded="false" />
-            <element signature="e#2242#2296#0" expanded="false" />
-            <element signature="e#2357#2804#0" expanded="false" />
-            <element signature="e#2520#2698#0" expanded="false" />
-            <element signature="e#2591#2650#0" expanded="false" />
-            <element signature="e#2757#2800#0" expanded="false" />
-            <element signature="e#2872#3138#0" expanded="false" />
-            <element signature="e#2998#3042#0" expanded="false" />
-            <element signature="e#3097#3134#0" expanded="false" />
-            <element signature="n#!!block;n#transform_biddings_to_view_model#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data_structure_1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="10" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="1425">
@@ -791,11 +807,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure_1/src/SMSSignUp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="55" selection-start="893" selection-end="893" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380">
+          <folding>
+            <element signature="e#893#1040#0" expanded="true" />
+            <element signature="e#1095#1324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure_1/src/sms.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817">
+          <folding>
+            <element signature="e#483#619#0" expanded="true" />
+            <element signature="e#652#750#0" expanded="true" />
+            <element signature="e#782#868#0" expanded="true" />
+            <element signature="n#!!block;n#check_message#0" expanded="true" />
+            <element signature="n#!!block;n#notify_sms_received#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure_1/src/SignUp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="29" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
+          <folding>
+            <element signature="n#!!block;n#SignUp#0" expanded="true" />
+            <element signature="e#186#382#0" expanded="true" />
+            <element signature="e#294#348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure_1/src/Bidding.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="13" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1691">
+          <folding>
+            <element signature="e#207#516#0" expanded="true" />
+            <element signature="e#652#700#0" expanded="true" />
+            <element signature="e#771#1255#0" expanded="true" />
+            <element signature="e#914#1026#0" expanded="true" />
+            <element signature="e#1069#1193#0" expanded="true" />
+            <element signature="e#1304#1610#0" expanded="true" />
+            <element signature="e#1660#1827#0" expanded="true" />
+            <element signature="e#1760#1814#0" expanded="true" />
+            <element signature="e#1871#2065#0" expanded="true" />
+            <element signature="e#1976#2036#0" expanded="true" />
+            <element signature="e#2116#2300#0" expanded="true" />
+            <element signature="e#2242#2296#0" expanded="true" />
+            <element signature="e#2357#2805#0" expanded="true" />
+            <element signature="e#2520#2699#0" expanded="true" />
+            <element signature="e#2591#2650#0" expanded="true" />
+            <element signature="e#2758#2801#0" expanded="true" />
+            <element signature="e#2873#3139#0" expanded="true" />
+            <element signature="e#2999#3043#0" expanded="true" />
+            <element signature="e#3098#3135#0" expanded="true" />
+            <element signature="n#!!block;n#transform_biddings_to_view_model#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data_structure_1/src/Bid.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="31" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="627">
+        <state line="27" column="27" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="627">
           <folding>
             <element signature="n#!!block;n#Bid#0" expanded="true" />
+            <element signature="e#171#569#0" expanded="true" />
             <element signature="e#412#507#0" expanded="true" />
             <element signature="e#601#675#0" expanded="true" />
             <element signature="e#716#819#0" expanded="true" />
@@ -804,9 +883,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure_1/src/Activity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="38" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="532">
+          <folding>
+            <element signature="e#198#304#0" expanded="true" />
+            <element signature="e#583#810#0" expanded="true" />
+            <element signature="e#761#806#0" expanded="true" />
+            <element signature="e#877#1056#0" expanded="true" />
+            <element signature="e#998#1052#0" expanded="true" />
+            <element signature="e#1095#1146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure_1/spec/sign_up_spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="760">
+          <folding>
+            <element signature="e#841#1172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure_1/spec/sign_up_render_spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="71" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
+          <folding>
+            <element signature="e#1063#1329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data_structure_1/spec/bids_and_bidding_render_spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="28" selection-start="2462" selection-end="2482" vertical-scroll-proportion="0.37460816" vertical-offset="1281" max-vertical-offset="1976">
+        <state line="79" column="0" selection-start="2453" selection-end="2453" vertical-scroll-proportion="1.2908497" vertical-offset="711" max-vertical-offset="1976">
           <folding>
             <element signature="e#79#2384#0" expanded="true" />
             <element signature="e#2414#2451#0" expanded="true" />
