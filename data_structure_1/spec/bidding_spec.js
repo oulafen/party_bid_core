@@ -52,7 +52,6 @@ describe("Bidding", function () {
 
         localStorage.is_bidding = "true";
         notify_sms_received(sms_json);
-        Bidding.save_bid_message_to_activities(sms_json);
         var activities = JSON.parse(localStorage.activities);
         expect(activities[1].bids.length).toBe(1);
         expect(activities[1].bids[0].biddings[0].name).toBe("仝键");
@@ -87,6 +86,7 @@ describe("Bidding", function () {
         var phone_no = "13600000001";
         var sms_json = build_sms_json("JJ12", phone_no);
         localStorage.is_bidding = "true";
+
         notify_sms_received(sms_json);
 
         var activities = JSON.parse(localStorage.activities);

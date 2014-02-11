@@ -29,13 +29,8 @@ describe("SignUp", function () {
     it("should one sms with signing up content sign up failed when user has signed", function () {
         var sms_json = build_sms_json("BM仝键", "13600000000");
         localStorage.is_signing_up = "true";
-//        if(!SMSSignUp.judge_sign_up_is_repeat(sms_json)){
-//            SMSSignUp.save_message_to_activities(sms_json);
-//        }else{
-//            console.log('对不起，请勿重复报名！');
-//        }
+
         notify_sms_received(sms_json);
-//        notify_sms_received(sms_json);
 
         var activities = JSON.parse(localStorage.activities);
         expect(activities[1].sign_ups.length).toBe(1);

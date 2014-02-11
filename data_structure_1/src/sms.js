@@ -26,19 +26,12 @@ var native_accessor = {
         SMSSignUp.check_sign_up_activity(SMSSignUp.reconstruct_sign_up_message(sms_json));
     },
     'JJ': function (sms_json) {
-        if (!SMSBid.judge_jj_phone_is_from_bm_phone(message_json) || !SMSBid.judge_jj_content_is_price(message_json)) {
-            return;
-        }
-        if (SMSBid.reconstruct_jj_message(message_json)) {
-            SMSBid.check_jj_activity(SMSBid.reconstruct_jj_message(message_json));
-        } else {
-            console.log('对不起，您没有报名此次活动！');
-        }
+        Bidding.check_bid_activity(Bidding.reconstruct_bid_message(sms_json));
     }
 };
 
 function check_message(message_json) {
-    var message_flag = message_json.messages[0].message.substring(0, 2).toUpperCase();
+    var message_flag = message_json.messages[0].message.substring(0, 2);
     if ((message_flag == 'JJ' || message_flag == 'BM') && message_json.messages[0].message.length > 2) {
         return true;
     }
