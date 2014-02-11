@@ -16,7 +16,7 @@ describe("Activity", function () {
         activity.create();
 
         var activities_json = JSON.parse(localStorage.getItem("activities")) || {};
-        var activity_ids = JSON.parse(localStorage.getItem("activity_ids"))
+        var activity_ids = JSON.parse(localStorage.getItem("activity_ids"));
 
         expect(activity_ids.length).toBe(1);
         expect(activities_json["0"].name).toBe(activity_name);
@@ -46,7 +46,7 @@ describe("Activity", function () {
         expect(activities_json["2"].name).toBe("third activity");
 
         var activity_ids = JSON.parse(localStorage.getItem("activity_ids")) || [];
-
+        
         expect(activity_ids.length).toBe(3);
         expect(activity_ids[0]).toBe("0");
         expect(activity_ids[1]).toBe("1");
