@@ -6,13 +6,14 @@ function Activity(name, sign_ups, bids) {
     this.sign_ups = sign_ups;
     this.bids = bids;
 }
+Activity.create = function (activity) {
+    Activity.save_activity_to_activities(activity);
+    localStorage.current_activity = activity.name;
+}
 Activity.save_activity_to_activities = function (activity) {
     var activities = JSON.parse(localStorage.getItem('activities'));
     activities.unshift(activity);
     localStorage.setItem('activities', JSON.stringify(activities));
-}
-Activity.save_activity_name_to_current_activity = function (activity_name) {
-    localStorage.setItem('current_activity', activity_name);
 }
 Activity.get_current_activity = function () {
     var activities = JSON.parse(localStorage.getItem('activities'));
