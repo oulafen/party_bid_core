@@ -22,6 +22,12 @@ Activity.get_current_activity = function () {
         return activity.name == name;
     });
 }
+Activity.get_activity_by_activity_name=function(activity_name){
+    var activities = JSON.parse(localStorage.getItem('activities'));
+    return _.find(activities, function (activity) {
+        return activity.name == activity_name;
+    });
+}
 Activity.get_activities = function () {
     return JSON.parse(localStorage.activities);
 }
