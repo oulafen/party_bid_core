@@ -46,7 +46,7 @@ describe("Activity", function () {
         expect(activities_json["2"].name).toBe("third activity");
 
         var activity_ids = JSON.parse(localStorage.getItem("activity_ids")) || [];
-        
+
         expect(activity_ids.length).toBe(3);
         expect(activity_ids[0]).toBe("0");
         expect(activity_ids[1]).toBe("1");
