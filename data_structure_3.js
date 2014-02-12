@@ -55,7 +55,7 @@ bids = [
     {
         name: "竞价1",
         // status
-        activity_name: "0",
+        activity_id: "0",
 //        user:name
 
         biddings: [

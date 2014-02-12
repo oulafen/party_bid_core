@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="002d1f72-4b0d-4a5d-b752-e68d10ceb97d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_structure_2/src/Activity.js" afterPath="$PROJECT_DIR$/data_structure_2/src/Activity.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_structure_2/src/Bidding.js" afterPath="$PROJECT_DIR$/data_structure_2/src/Bidding.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_structure_2/src/SMS.js" afterPath="$PROJECT_DIR$/data_structure_2/src/SMS.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_structure_2/src/SignUp.js" afterPath="$PROJECT_DIR$/data_structure_2/src/SignUp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_structure_2/spec/bid_spec.js" afterPath="$PROJECT_DIR$/data_structure_2/spec/bid_spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_structure_2/spec/bids_and_bidding_render_spec.js" afterPath="$PROJECT_DIR$/data_structure_2/spec/bids_and_bidding_render_spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_structure_3/src/Activity.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_structure_3/src/Bid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_structure_3/src/Bidding.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_structure_3/src/SMS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_structure_3/src/SignUp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_structure_2/SpecRunner.html" afterPath="$PROJECT_DIR$/data_structure_2/SpecRunner.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data_structure_3.js" afterPath="$PROJECT_DIR$/data_structure_3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="party_bid_core.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,119 +37,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="data_structure_2.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_structure_2.js">
+      <file leaf-file-name="data_structure_3.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data_structure_3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="12" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1235">
+            <state line="57" column="22" selection-start="941" selection-end="941" vertical-scroll-proportion="0.3427673" vertical-offset="865" max-vertical-offset="2185">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SMS.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data_structure_2/src/SMS.js">
+      <file leaf-file-name="activity_spec.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_structure_3/spec/activity_spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="55" selection-start="960" selection-end="960" vertical-scroll-proportion="0.93442625" vertical-offset="0" max-vertical-offset="893">
-              <folding>
-                <element signature="e#107#249#0" expanded="true" />
-                <element signature="e#293#430#0" expanded="true" />
-                <element signature="e#483#619#0" expanded="true" />
-                <element signature="e#652#744#0" expanded="true" />
-                <element signature="e#776#862#0" expanded="true" />
-                <element signature="n#!!block;n#get_bm_or_jj#0" expanded="true" />
-                <element signature="n#!!block;n#notify_sms_received#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bidding.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_structure_2/src/Bidding.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="19" selection-start="2329" selection-end="2329" vertical-scroll-proportion="0.0" vertical-offset="929" max-vertical-offset="1539">
-              <folding>
-                <element signature="n#!!block;n#Bidding#0" expanded="true" />
-                <element signature="e#131#428#0" expanded="true" />
-                <element signature="e#483#619#0" expanded="true" />
-                <element signature="e#680#869#0" expanded="true" />
-                <element signature="e#918#1224#0" expanded="true" />
-                <element signature="e#1274#1440#0" expanded="true" />
-                <element signature="e#1373#1427#0" expanded="true" />
-                <element signature="e#1491#1697#0" expanded="true" />
-                <element signature="e#1630#1684#0" expanded="true" />
-                <element signature="e#1740#1880#0" expanded="true" />
-                <element signature="e#1938#2030#0" expanded="true" />
-                <element signature="e#2239#2276#0" expanded="true" />
-                <element signature="e#2354#2528#0" expanded="true" />
-                <element signature="e#2423#2481#0" expanded="true" />
-                <element signature="e#2586#2629#0" expanded="true" />
-                <element signature="n#!!block;n#transform_bids_to_view_model#0" expanded="true" />
-                <element signature="n#!!block;n#transform_biddings_to_view_model#0" expanded="true" />
-                <element signature="e#3016#3077#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SignUp.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_structure_2/src/SignUp.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="3" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="874">
-              <folding>
-                <element signature="n#!!block;n#SignUp#0" expanded="true" />
-                <element signature="e#171#377#0" expanded="true" />
-                <element signature="e#289#343#0" expanded="true" />
-                <element signature="e#435#554#0" expanded="true" />
-                <element signature="e#604#683#0" expanded="true" />
-                <element signature="e#739#1066#0" expanded="true" />
-                <element signature="e#901#1020#0" expanded="true" />
-                <element signature="e#1119#1324#0" expanded="true" />
-                <element signature="e#1376#1599#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Activity.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_structure_2/src/Activity.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="36" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="760">
-              <folding>
-                <element signature="n#!!block;n#Activity#0" expanded="true" />
-                <element signature="e#623#720#0" expanded="true" />
-                <element signature="e#771#961#0" expanded="true" />
-                <element signature="e#1000#1051#0" expanded="true" />
-                <element signature="e#1101#1162#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bids_and_bidding_render_spec.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_structure_2/spec/bids_and_bidding_render_spec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="0" selection-start="2402" selection-end="2402" vertical-scroll-proportion="0.0" vertical-offset="827" max-vertical-offset="1748">
-              <folding>
-                <element signature="e#79#1975#0" expanded="true" />
-                <element signature="e#2088#2261#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bidding_spec.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_structure_2/spec/bidding_spec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="0" selection-start="1982" selection-end="1982" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bid_spec.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_structure_2/spec/bid_spec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418">
+            <state line="7" column="26" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
               <folding />
             </state>
           </provider>
@@ -171,12 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/data_structure_3/src/Activity.js" />
-        <option value="$PROJECT_DIR$/data_structure_3/src/SMS.js" />
-        <option value="$PROJECT_DIR$/data_structure_3/src/SignUp.js" />
-        <option value="$PROJECT_DIR$/data_structure_3/src/Bidding.js" />
-        <option value="$PROJECT_DIR$/data_structure_3/src/Bid.js" />
-        <option value="$PROJECT_DIR$/data_structure_3.js" />
         <option value="$PROJECT_DIR$/data_structure_1/src/BidModel.js" />
         <option value="$PROJECT_DIR$/data_structure_1/src/SignUpModel.js" />
         <option value="$PROJECT_DIR$/data_structure_1/src/ActivityModel.js" />
@@ -202,8 +98,15 @@
         <option value="$PROJECT_DIR$/data_structure_2/spec/bid_spec.js" />
         <option value="$PROJECT_DIR$/data_structure_2/src/Activity.js" />
         <option value="$PROJECT_DIR$/data_structure_2/src/SMS.js" />
-        <option value="$PROJECT_DIR$/data_structure_2/src/Bidding.js" />
         <option value="$PROJECT_DIR$/data_structure_2/src/SignUp.js" />
+        <option value="$PROJECT_DIR$/data_structure_2/src/Bidding.js" />
+        <option value="$PROJECT_DIR$/data_structure_2/SpecRunner.html" />
+        <option value="$PROJECT_DIR$/data_structure_3/src/Activity.js" />
+        <option value="$PROJECT_DIR$/data_structure_3/src/SignUp.js" />
+        <option value="$PROJECT_DIR$/data_structure_3/src/Bid.js" />
+        <option value="$PROJECT_DIR$/data_structure_3/src/Bidding.js" />
+        <option value="$PROJECT_DIR$/data_structure_3/src/SMS.js" />
+        <option value="$PROJECT_DIR$/data_structure_3.js" />
       </list>
     </option>
   </component>
@@ -298,7 +201,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="data_structure_3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -312,35 +215,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fixture" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="party_bid_core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="party_bid_core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data_structure_2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="party_bid_core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="party_bid_core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data_structure_2" />
+              <option name="myItemId" value="data_structure_3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -358,7 +233,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="data_structure_2" />
+              <option name="myItemId" value="data_structure_3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -377,46 +252,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="data_structure_2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fixture" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="party_bid_core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="party_bid_core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data_structure_1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="party_bid_core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="party_bid_core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data_structure_1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -521,14 +356,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="743" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973805" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16176471" sideWeight="0.40584415" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16176471" sideWeight="0.40584415" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -563,63 +398,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data_structure_1/spec/bidding_spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="29" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.0" vertical-offset="703" max-vertical-offset="2280">
-          <folding>
-            <element signature="e#2852#3162#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure_1/src/sms.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="20" selection-start="1547" selection-end="1547" vertical-scroll-proportion="0.0" vertical-offset="931" max-vertical-offset="1254">
-          <folding>
-            <element signature="n#!!block;n#notify_sms_received#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure_1/src/Activity.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="49" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="722">
-          <folding>
-            <element signature="e#198#304#0" expanded="false" />
-            <element signature="e#583#810#0" expanded="false" />
-            <element signature="e#761#806#0" expanded="false" />
-            <element signature="e#877#1056#0" expanded="false" />
-            <element signature="e#998#1052#0" expanded="false" />
-            <element signature="e#1095#1146#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure_1/src/Bidding.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="34" selection-start="1978" selection-end="1978" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="1463">
-          <folding>
-            <element signature="n#!!block;n#Bidding#0" expanded="true" />
-            <element signature="e#568#710#0" expanded="true" />
-            <element signature="e#771#1255#0" expanded="true" />
-            <element signature="e#1304#1610#0" expanded="true" />
-            <element signature="e#2520#2699#0" expanded="true" />
-            <element signature="e#2591#2650#0" expanded="true" />
-            <element signature="e#2758#2801#0" expanded="true" />
-            <element signature="n#!!block;n#transform_biddings_to_view_model#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure_1/spec/sign_up_spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="25" selection-start="1880" selection-end="1880" vertical-scroll-proportion="0.0" vertical-offset="1007" max-vertical-offset="1387">
-          <folding>
-            <element signature="e#841#1172#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data_structure_1/spec/sign_up_render_spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="37" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.0" vertical-offset="456" max-vertical-offset="456">
@@ -712,24 +490,9 @@
         <state line="70" column="23" selection-start="1780" selection-end="1780" vertical-scroll-proportion="0.0" vertical-offset="1330" max-vertical-offset="1767" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure_3/SpecRunner.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure_3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="27" selection-start="1029" selection-end="1029" vertical-scroll-proportion="1.0324233" vertical-offset="573" max-vertical-offset="2185" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data_structure_3/spec/bids_and_bidding_render_spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="70" column="23" selection-start="1780" selection-end="1780" vertical-scroll-proportion="0.24836601" vertical-offset="0" max-vertical-offset="612" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure_3/spec/activity_spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="26" selection-start="134" selection-end="134" vertical-scroll-proportion="0.20846395" vertical-offset="0" max-vertical-offset="836" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
@@ -866,29 +629,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure_2/SpecRunner.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="33" selection-start="2104" selection-end="2104" vertical-scroll-proportion="0.75" vertical-offset="399" max-vertical-offset="1368">
-          <folding>
-            <element signature="e#2165#2315#0" expanded="false" />
-            <element signature="e#2353#2406#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data_structure_2/spec/sign_up_spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="24" selection-start="959" selection-end="959" vertical-scroll-proportion="0.5377358" vertical-offset="57" max-vertical-offset="703">
           <folding>
             <element signature="e#393#723#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure_2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="12" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1235">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -956,39 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure_2/spec/bid_spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure_2/src/Bidding.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="19" selection-start="2329" selection-end="2329" vertical-scroll-proportion="0.0" vertical-offset="929" max-vertical-offset="1539">
-          <folding>
-            <element signature="n#!!block;n#Bidding#0" expanded="true" />
-            <element signature="e#131#428#0" expanded="true" />
-            <element signature="e#483#619#0" expanded="true" />
-            <element signature="e#680#869#0" expanded="true" />
-            <element signature="e#918#1224#0" expanded="true" />
-            <element signature="e#1274#1440#0" expanded="true" />
-            <element signature="e#1373#1427#0" expanded="true" />
-            <element signature="e#1491#1697#0" expanded="true" />
-            <element signature="e#1630#1684#0" expanded="true" />
-            <element signature="e#1740#1880#0" expanded="true" />
-            <element signature="e#1938#2030#0" expanded="true" />
-            <element signature="e#2239#2276#0" expanded="true" />
-            <element signature="e#2354#2528#0" expanded="true" />
-            <element signature="e#2423#2481#0" expanded="true" />
-            <element signature="e#2586#2629#0" expanded="true" />
-            <element signature="n#!!block;n#transform_bids_to_view_model#0" expanded="true" />
-            <element signature="n#!!block;n#transform_biddings_to_view_model#0" expanded="true" />
-            <element signature="e#3016#3077#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data_structure_2/src/Activity.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="36" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="760">
@@ -1019,9 +732,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure_2/spec/bid_spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure_2/src/Bidding.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="4" selection-start="2488" selection-end="2488" vertical-scroll-proportion="0.6885246" vertical-offset="701" max-vertical-offset="1539">
+          <folding>
+            <element signature="n#!!block;n#Bidding#0" expanded="true" />
+            <element signature="e#131#428#0" expanded="true" />
+            <element signature="e#483#619#0" expanded="true" />
+            <element signature="e#680#869#0" expanded="true" />
+            <element signature="e#918#1224#0" expanded="true" />
+            <element signature="e#1274#1440#0" expanded="true" />
+            <element signature="e#1373#1427#0" expanded="true" />
+            <element signature="e#1491#1697#0" expanded="true" />
+            <element signature="e#1630#1684#0" expanded="true" />
+            <element signature="e#1740#1880#0" expanded="true" />
+            <element signature="e#1938#2030#0" expanded="true" />
+            <element signature="e#2239#2276#0" expanded="true" />
+            <element signature="e#2423#2481#0" expanded="true" />
+            <element signature="e#2586#2629#0" expanded="true" />
+            <element signature="n#!!block;n#transform_bids_to_view_model#0" expanded="true" />
+            <element signature="n#!!block;n#transform_biddings_to_view_model#0" expanded="true" />
+            <element signature="e#3016#3077#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data_structure_2/src/SMS.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="55" selection-start="960" selection-end="960" vertical-scroll-proportion="0.93442625" vertical-offset="0" max-vertical-offset="893">
+        <state line="32" column="55" selection-start="960" selection-end="960" vertical-scroll-proportion="0.8962264" vertical-offset="0" max-vertical-offset="893">
           <folding>
             <element signature="e#107#249#0" expanded="true" />
             <element signature="e#293#430#0" expanded="true" />
@@ -1031,6 +776,78 @@
             <element signature="n#!!block;n#get_bm_or_jj#0" expanded="true" />
             <element signature="n#!!block;n#notify_sms_received#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure_2/SpecRunner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="79" selection-start="271" selection-end="271" vertical-scroll-proportion="-0.15625" vertical-offset="228" max-vertical-offset="1235">
+          <folding>
+            <element signature="e#1743#2420#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure_2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="12" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1235">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure_3/src/Activity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="636">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure_3/src/SignUp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="636">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure_3/src/Bid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="636">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure_3/src/Bidding.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="636">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure_3/src/SMS.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="636">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure_3/SpecRunner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="893">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure_3/spec/activity_spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="26" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure_3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="22" selection-start="941" selection-end="941" vertical-scroll-proportion="0.3427673" vertical-offset="865" max-vertical-offset="2185">
+          <folding />
         </state>
       </provider>
     </entry>
