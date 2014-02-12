@@ -78,9 +78,8 @@ describe("Bids and Bidding Render", function () {
 
     it("should show minimum not repeatable bidding", function () {
         var biddings = transform_biddings_to_view_model("1", "竞价2");
-        console.log(biddings)
-        console.log(biddings.length)
-
+        
+        console.log(biddings);
         expect(biddings.length).toBe(1);
         expect(biddings[0].name).toBe("于硕");
         expect(biddings[0].phone).toBe("15600000000");
