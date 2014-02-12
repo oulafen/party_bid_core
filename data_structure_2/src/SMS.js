@@ -36,7 +36,7 @@ function check_message(message_json) {
     }
 }
 function get_bm_or_jj(message_json) {
-    return message_json.messages[0].message.substring(0, 2).toUpperCase();
+    return message_json.messages[0].message.substring(0, 2);
 }
 function notify_sms_received(message_json) {
     native_accessor.receive_message(message_json);
