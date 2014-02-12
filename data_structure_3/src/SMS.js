@@ -20,7 +20,7 @@ var native_accessor = {
     },
 
     'BM': function (sms_json) {
-        SMSSignUp.check_sign_up_activity(SMSSignUp.reconstruct_sign_up_message(sms_json));
+        SignUp.check_sign_up_activity(SignUp.reconstruct_sign_up_message(sms_json));
     },
     'JJ': function (sms_json) {
         Bidding.check_bid_activity(Bidding.reconstruct_bid_message(sms_json));

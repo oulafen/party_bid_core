@@ -34,19 +34,20 @@
       <file leaf-file-name="data_structure_3.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_structure_3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="2185">
+            <state line="19" column="0" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="2185">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sign_up_spec.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="sign_up_spec.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data_structure_3/spec/sign_up_spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="22" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0" vertical-offset="466" max-vertical-offset="1273">
+            <state line="26" column="0" selection-start="746" selection-end="746" vertical-scroll-proportion="0.418239" vertical-offset="228" max-vertical-offset="1273">
               <folding>
                 <element signature="e#62#218#0" expanded="true" />
                 <element signature="e#248#285#0" expanded="true" />
+                <element signature="e#393#743#0" expanded="true" />
                 <element signature="e#844#1232#0" expanded="true" />
                 <element signature="e#1338#2200#0" expanded="true" />
               </folding>
@@ -54,26 +55,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sign_up_render_spec.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_structure_3/spec/sign_up_render_spec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="19" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589">
-              <folding>
-                <element signature="e#238#275#0" expanded="true" />
-                <element signature="e#351#585#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SignUp.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SignUp.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data_structure_3/src/SignUp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="23" selection-start="176" selection-end="192" vertical-scroll-proportion="0.17924528" vertical-offset="0" max-vertical-offset="636">
+            <state line="15" column="67" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="798">
               <folding>
                 <element signature="n#!!block;n#SignUp#0" expanded="true" />
                 <element signature="e#217#384#0" expanded="true" />
                 <element signature="e#322#380#0" expanded="true" />
+                <element signature="e#641#720#0" expanded="true" />
+                <element signature="e#774#912#0" expanded="true" />
+                <element signature="e#965#1154#0" expanded="true" />
+                <element signature="e#1088#1141#0" expanded="true" />
+                <element signature="e#1206#1427#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -264,6 +258,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="party_bid_core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="party_bid_core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data_structure_2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="party_bid_core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="party_bid_core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data_structure_2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -372,7 +398,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973805" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16176471" sideWeight="0.40584415" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16397059" sideWeight="0.40584415" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -696,23 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure_2/src/SignUp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="3" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="874">
-          <folding>
-            <element signature="n#!!block;n#SignUp#0" expanded="true" />
-            <element signature="e#171#377#0" expanded="true" />
-            <element signature="e#289#343#0" expanded="true" />
-            <element signature="e#435#554#0" expanded="true" />
-            <element signature="e#604#683#0" expanded="true" />
-            <element signature="e#739#1066#0" expanded="true" />
-            <element signature="e#901#1020#0" expanded="true" />
-            <element signature="e#1119#1324#0" expanded="true" />
-            <element signature="e#1376#1599#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data_structure_2/spec/bid_spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="0" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418">
@@ -827,47 +836,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure_3/src/SMS.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="1" selection-start="1288" selection-end="1288" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="874">
-          <folding>
-            <element signature="e#65#207#0" expanded="true" />
-            <element signature="e#251#388#0" expanded="true" />
-            <element signature="e#441#577#0" expanded="true" />
-            <element signature="e#610#708#0" expanded="true" />
-            <element signature="e#740#826#0" expanded="true" />
-            <element signature="n#!!block;n#check_message#0" expanded="true" />
-            <element signature="n#!!block;n#get_bm_or_jj#0" expanded="true" />
-            <element signature="n#!!block;n#notify_sms_received#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure_3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="2185">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_structure_3/spec/sign_up_spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="22" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0" vertical-offset="466" max-vertical-offset="1273">
-          <folding>
-            <element signature="e#62#218#0" expanded="true" />
-            <element signature="e#248#285#0" expanded="true" />
-            <element signature="e#844#1232#0" expanded="true" />
-            <element signature="e#1338#2200#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data_structure_3/spec/sign_up_render_spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="19" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589">
+        <state line="6" column="19" selection-start="153" selection-end="153" vertical-scroll-proportion="0.17924528" vertical-offset="0" max-vertical-offset="636">
           <folding>
-            <element signature="e#238#275#0" expanded="true" />
-            <element signature="e#351#585#0" expanded="true" />
+            <element signature="e#238#275#0" expanded="false" />
+            <element signature="e#351#585#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure_2/src/SignUp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="1" selection-start="555" selection-end="1599" vertical-scroll-proportion="0.7908805" vertical-offset="276" max-vertical-offset="912">
+          <folding>
+            <element signature="n#!!block;n#SignUp#0" expanded="true" />
+            <element signature="e#171#377#0" expanded="true" />
+            <element signature="e#289#343#0" expanded="true" />
+            <element signature="e#435#554#0" expanded="true" />
+            <element signature="e#604#683#0" expanded="true" />
+            <element signature="e#739#1066#0" expanded="true" />
+            <element signature="e#901#1020#0" expanded="true" />
+            <element signature="e#1119#1324#0" expanded="true" />
+            <element signature="e#1258#1311#0" expanded="true" />
+            <element signature="e#1376#1599#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -882,13 +874,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure_3/src/SMS.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="5" selection-start="820" selection-end="820" vertical-scroll-proportion="0.4025157" vertical-offset="238" max-vertical-offset="874">
+          <folding>
+            <element signature="e#65#207#0" expanded="true" />
+            <element signature="e#251#388#0" expanded="true" />
+            <element signature="e#441#577#0" expanded="true" />
+            <element signature="e#610#702#0" expanded="true" />
+            <element signature="e#734#820#0" expanded="true" />
+            <element signature="n#!!block;n#check_message#0" expanded="true" />
+            <element signature="n#!!block;n#get_bm_or_jj#0" expanded="true" />
+            <element signature="n#!!block;n#notify_sms_received#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure_3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="2185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data_structure_3/src/SignUp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="23" selection-start="176" selection-end="192" vertical-scroll-proportion="0.17924528" vertical-offset="0" max-vertical-offset="636">
+        <state line="15" column="67" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="798">
           <folding>
             <element signature="n#!!block;n#SignUp#0" expanded="true" />
             <element signature="e#217#384#0" expanded="true" />
             <element signature="e#322#380#0" expanded="true" />
+            <element signature="e#641#720#0" expanded="true" />
+            <element signature="e#774#912#0" expanded="true" />
+            <element signature="e#965#1154#0" expanded="true" />
+            <element signature="e#1088#1141#0" expanded="true" />
+            <element signature="e#1206#1427#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_structure_3/spec/sign_up_spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="746" selection-end="746" vertical-scroll-proportion="0.418239" vertical-offset="228" max-vertical-offset="1273">
+          <folding>
+            <element signature="e#62#218#0" expanded="true" />
+            <element signature="e#248#285#0" expanded="true" />
+            <element signature="e#393#743#0" expanded="true" />
+            <element signature="e#844#1232#0" expanded="true" />
+            <element signature="e#1338#2200#0" expanded="true" />
           </folding>
         </state>
       </provider>
