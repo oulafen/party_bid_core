@@ -8,11 +8,11 @@ Bidding.reconstruct_bid_message = function (sms_json) {
 }
 Bidding.save_bid_message_to_bids = function (message) {
     var bids = JSON.parse(localStorage.bids);
-    var current_bid = Bidding.get_current_bid();
-    current_bid[0].biddings.push(message);
+    var current_biddings = Bidding.get_biddings(localStorage.current_activity, localStorage.current_bid);
+    current_biddings.push(message);
     _.map(bids, function (bid) {
         if (bid.activity_id == localStorage.current_activity && bid.name == localStorage.current_bid) {
-            bid.biddings = current_bid[0].biddings;
+            bid.biddings = current_biddings;
         }
         return bid;
     });
@@ -26,33 +26,19 @@ Bidding.check_bid_activity = function (message) {
         Bidding.save_bid_message_to_bids(message);
     }
 }
-Bidding.get_current_bid = function () {
-    var bids = JSON.parse(localStorage.bids);
-    return _.chain(bids)
-        .filter(function (bid) {
-            return bid.activity_id == localStorage.current_activity;
-        })
-        .filter(function (bid) {
-            return bid.name = localStorage.current_bid;
-        })
-        .value();
-}
 Bidding.judge_bid_is_repeat = function (message) {
-    var current_bid = Bidding.get_current_bid();
-    return _.find(current_bid[0].biddings, function (bidding) {
+    var current_biddings = Bidding.get_biddings(localStorage.current_activity, localStorage.current_bid);
+    return _.find(current_biddings, function (bidding) {
         return bidding.phone == message.phone;
     }) || false;
 }
 Bidding.judge_user_signed_up = function (message) {
-    var sign_ups = JSON.parse(localStorage.sign_ups);
-    var current_sign_ups = _.filter(sign_ups, function (sign_up) {
-        return sign_up.activity_id == localStorage.current_activity;
-    });
+    var current_sign_ups = SignUp.get_current_sign_ups();
     return _.find(current_sign_ups, function (sign_up) {
         return sign_up.phone == message.phone;
     }) || false;
 }
-Bidding.get_current_biddings = function (activity_id, bid_name) {
+Bidding.get_biddings = function (activity_id, bid_name) {
     var bids = JSON.parse(localStorage.bids);
     var current_bid = _.chain(bids)
         .filter(function (bid) {
@@ -64,20 +50,26 @@ Bidding.get_current_biddings = function (activity_id, bid_name) {
         .value();
     return current_bid[0].biddings;
 }
-Bidding.get_win_bidding = function (activity_id, bid_name) {
-//    var bids = JSON.parse(localStorage.bids);
-    var biddings = Bidding.get_current_biddings(activity_id, bid_name)
-    var biddings_in_order = _.sortBy(biddings, function (bidding) {
+Bidding.get_biddings_in_order = function (activity_id, bid_name) {
+    var biddings = Bidding.get_biddings(activity_id, bid_name);
+    return _.sortBy(biddings, function (bidding) {
         return bidding.price;
     });
-    var bidding_in_kinds = [];
+}
+Bidding.get_biddings_in_same_price = function (activity_id, bid_name) {
+    var biddings_in_order = Bidding.get_biddings_in_order(activity_id, bid_name);
+    var bidding_in_same_price = [];
     _.each(biddings_in_order, function (bid) {
         var prices = _.filter(biddings_in_order, function (bidding) {
             return bidding.price == bid.price;
         });
-        bidding_in_kinds.push(prices);
+        bidding_in_same_price.push(prices);
     });
-    return _.find(bidding_in_kinds, function (bidding) {
+    return bidding_in_same_price;
+}
+Bidding.get_win_bidding = function (activity_id, bid_name) {
+    var bidding_in_same_price = Bidding.get_biddings_in_same_price(activity_id, bid_name)
+    return _.find(bidding_in_same_price, function (bidding) {
         return bidding.length == 1;
     });
 }
