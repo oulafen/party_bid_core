@@ -13,3 +13,38 @@ SignUp.render_sign_ups = function (activity_name) {
     });
     return activity.sign_ups;
 }
+SignUp.reconstruct_sign_up_message = function (sms_json) {
+    var message = new SignUp(SignUp.get_message_content(sms_json), sms_json.messages[0].phone);
+    return message;
+}
+SignUp.get_message_content = function (sms_json) {
+    return sms_json.messages[0].message.substring(2).replace(/^\s+$/g, '');
+}
+SignUp.reconstruct_sign_up_message = function (sms_json) {
+    var message = new SignUp(SignUp.get_message_content(sms_json), sms_json.messages[0].phone);
+    return message;
+}
+SignUp.save_message_to_activities = function (message) {
+    var activities = Activity.get_activities();
+    var current_activity = localStorage.getItem('current_activity');
+    var act = activities[current_activity];
+    _.map(activities, function (activity) {
+        if (activity.name == act.name) {
+            activity.sign_ups.unshift(message);
+        }
+    });
+    localStorage.activities = JSON.stringify(activities);
+}
+SignUp.judge_sign_up_is_repeat = function (message) {
+    var activities = Activity.get_activities();
+    return _.find(activities[localStorage.current_activity].sign_ups, function (sign_up) {
+        return sign_up.phone == message.phone
+    }) || false;
+}
+SignUp.check_sign_up_activity = function (message) {
+    var is_repeat = SignUp.judge_sign_up_is_repeat(message);
+    var is_signing_up = localStorage.is_signing_up;
+    if (is_signing_up == 'true' && !is_repeat) {
+        SignUp.save_message_to_activities(message);
+    }
+}
