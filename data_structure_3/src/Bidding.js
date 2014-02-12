@@ -52,3 +52,6 @@ Bidding.judge_user_signed_up = function (message) {
         return sign_up.phone == message.phone;
     }) || false;
 }
+Bidding.render_biddings=function(activity_id,bid_name){
+
+}
