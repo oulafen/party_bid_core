@@ -81,9 +81,9 @@ SMSSignUp.check_sign_up_activity = function (message) {
     }
 }
 
-function Bidding(phone, price) {
-    this.phone = phone;
+function Bidding(price, phone) {
     this.price = price;
+    this.phone = phone;
 }
 Bidding.create_new_bid = function (activity_id) {
     var activities = Activity.get_activities();
@@ -93,8 +93,41 @@ Bidding.create_new_bid = function (activity_id) {
     activities[activity_id].biddings[new_bid_name] = [];
     Activity.save_activities(activities);
 }
-Bidding.get_bid_name = function (activity_id) {
-    var activities = Activity.get_activities();
-    var bids = activities[activity_id].bids;
-    return '竞价' + bids.length + 1;
+Bidding.reconstruct_bid_message = function (sms_json) {
+    var message_content = SMSSignUp.get_message_content(sms_json);
+    return new Bidding(message_content, sms_json.messages[0].phone);
 }
+Bidding.save_bid_message_to_activities = function (message) {
+    var activities = Activity.get_activities();
+    activities[localStorage.current_activity].biddings[localStorage.current_bid].push(message);
+    Activity.save_activities(activities);
+}
+Bidding.check_bid_activity = function (message) {
+    var is_bidding = localStorage.is_bidding;
+    var user_signed_up = Bidding.judge_user_signed_up(message);
+    var bid_is_repeat = Bidding.judge_bid_is_repeat(message);
+    if (is_bidding == 'true' && user_signed_up && !bid_is_repeat) {
+        Bidding.save_bid_message_to_activities(message);
+    }
+}
+Bidding.judge_bid_is_repeat = function (message) {
+    var biddings = Bidding.get_current_bidding();
+    return _.find(biddings, function (bidding) {
+        return bidding.phone == message.phone;
+    }) || false;
+}
+Bidding.judge_user_signed_up = function (message) {
+    var activities = Activity.get_activities();
+    return _.find(activities[localStorage.current_activity].sign_ups, function (sign_up) {
+        return sign_up.phone == message.phone;
+    }) || false;
+}
+Bidding.get_current_bidding = function () {
+    var activities = Activity.get_activities();
+    return activities[localStorage.current_activity].biddings[localStorage.current_bid];
+}
+//Bidding.get_bid_name = function (activity_id) {
+//    var activities = Activity.get_activities();
+//    var bids = activities[activity_id].bids;
+//    return '竞价' + bids.length + 1;
+//}
