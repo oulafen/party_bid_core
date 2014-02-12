@@ -52,6 +52,41 @@ Bidding.judge_user_signed_up = function (message) {
         return sign_up.phone == message.phone;
     }) || false;
 }
-Bidding.render_biddings=function(activity_id,bid_name){
-
+Bidding.get_current_biddings = function (activity_id, bid_name) {
+    var bids = JSON.parse(localStorage.bids);
+    var current_bid = _.chain(bids)
+        .filter(function (bid) {
+            return bid.activity_id == activity_id;
+        })
+        .filter(function (bid) {
+            return bid.name == bid_name;
+        })
+        .value();
+    return current_bid[0].biddings;
+}
+Bidding.get_win_bidding = function (activity_id, bid_name) {
+//    var bids = JSON.parse(localStorage.bids);
+    var biddings = Bidding.get_current_biddings(activity_id, bid_name)
+    var biddings_in_order = _.sortBy(biddings, function (bidding) {
+        return bidding.price;
+    });
+    var bidding_in_kinds = [];
+    _.each(biddings_in_order, function (bid) {
+        var prices = _.filter(biddings_in_order, function (bidding) {
+            return bidding.price == bid.price;
+        });
+        bidding_in_kinds.push(prices);
+    });
+    return _.find(bidding_in_kinds, function (bidding) {
+        return bidding.length == 1;
+    });
+}
+Bidding.render_biddings = function (activity_id, bid_name) {
+    var win_bidding = Bidding.get_win_bidding(activity_id, bid_name);
+    _.each(JSON.parse(localStorage.sign_ups), function (sign_up) {
+        if (sign_up.activity_id == activity_id && sign_up.phone == win_bidding[0].phone) {
+            win_bidding[0].name = sign_up.name;
+        }
+    });
+    return win_bidding;
 }
