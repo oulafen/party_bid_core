@@ -5,6 +5,7 @@ function Bid(name, biddings) {
     this.name = name;
     this.biddings = biddings;
 }
+
 Bid.create_new_bid = function (active_name) {
     var bid_name = Bid.get_bid_name();
     var bid = new Bid(bid_name, []);
@@ -18,13 +19,16 @@ Bid.create_new_bid = function (active_name) {
     });
     localStorage.activities = JSON.stringify(activities);
 }
+
 Bid.get_bid_name = function () {
     return ('竞价' + (Activity.get_current_activity().bids.length + 1));
 }
+
 Bid.get_bids = function (activity_name) {
     var activity = Activity.get_activity_by_activity_name(activity_name);
     return activity.bids;
 }
+
 function transform_bids_to_view_model(activity_name) {
     return Bid.get_bids(activity_name);
 }
