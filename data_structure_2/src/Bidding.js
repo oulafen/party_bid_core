@@ -68,10 +68,6 @@ Bidding.get_win_bidding = function (activity_id, bid_name) {
         });
         bidding_in_kinds.push(prices);
     });
-//    bidding_in_kinds= _.chain(bidding_in_order)
-//        .filter(function(bid){
-//
-//        })
     return _.find(bidding_in_kinds, function (bidding) {
         return bidding.length == 1;
     });

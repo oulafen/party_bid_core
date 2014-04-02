@@ -1,6 +1,4 @@
-/**
- * Created by xiaofen on 14-2-12.
- */
+
 function Activity(name) {
     this.id = '';
     this.name = name;

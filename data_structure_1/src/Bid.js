@@ -1,6 +1,4 @@
-/**
- * Created by xiaofen on 14-2-10.
- */
+
 function Bid(name, biddings) {
     this.name = name;
     this.biddings = biddings;

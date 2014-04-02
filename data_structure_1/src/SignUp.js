@@ -1,6 +1,3 @@
-/**
- * Created by xiaofen on 14-2-10.
- */
 
 function SignUp(name, phone) {
     this.name = name;

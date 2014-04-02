@@ -1,6 +1,4 @@
-/**
- * Created by xiaofen on 14-2-11.
- */
+
 var native_accessor = {
 
     send_sms: function (phone, message) {

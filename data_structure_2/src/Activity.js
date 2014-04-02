@@ -1,6 +1,4 @@
-/**
- * Created by xiaofen on 14-2-11.
- */
+
 function Activity(name) {
     this.name = name;
     this.sign_ups = [];

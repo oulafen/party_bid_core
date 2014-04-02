@@ -1,6 +1,4 @@
-/**
- * Created by xiaofen on 14-2-10.
- */
+
 function Activity(name, sign_ups, bids) {
     this.name = name;
     this.sign_ups = sign_ups;

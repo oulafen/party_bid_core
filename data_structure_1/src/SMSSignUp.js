@@ -1,6 +1,4 @@
-/**
- * Created by xiaofen on 14-2-10.
- */
+
 function SMSSignUp(name, phone) {
     this.name = name;
     this.phone = phone;

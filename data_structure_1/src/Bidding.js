@@ -1,6 +1,4 @@
-/**
- * Created by xiaofen on 14-2-10.
- */
+
 function Bidding(name, price, phone) {
     this.name = name;
     this.price = price;
